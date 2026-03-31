@@ -1,36 +1,48 @@
 # oss-audit-Komal_pisey-24BCY10126
 Open Source Audit Project - Komal Pisey
+# Open Source Audit Project
+
 ## Chosen Software
-Mozilla Firefox
+
+Mozilla Firefox is the software I am going to audit.
 
 ## Scripts Description
 
-1. System Identity Report  
-Displays system information such as OS version, kernel, user, uptime, and license details.
+1. System Identity Report
 
-2. Package Inspector  
-Checks whether Mozilla Firefox is installed on the system and prints a short description.
+This script gives us information about the system. It tells us what version of the operating system we are using what kernel we have, who the user is, how long the system has been up and what kind of license we have.
 
-3. Disk and Permission Auditor  
-Analyzes important system directories and displays their permissions and disk usage.
+2. Package Inspector
 
-4. Log Analyzer  
-Scans macOS system logs using the `log show` command and counts occurrences of a keyword.
+This script checks if Mozilla Firefox is installed on the system. It then gives us a description of the software.
 
-5. Open Source Manifesto Generator  
-Generates a personalized open-source philosophy statement based on user input.
+3. Disk and Permission Auditor
+
+This script looks at system directories. It shows us what permissions they have and how disk space they are using.
+
+4. Log Analyzer
+
+This script looks at the system logs on macOS. It uses the `log show` command to do this. It then counts how times a certain keyword appears.
+
+5. Open Source Manifesto Generator
+
+This script generates a statement about open source software. It is based on what the user thinks about source.
 
 ## How to Run
 
-Make scripts executable:
+First we need to make the scripts executable:
 
 chmod +x *.sh
 
-Run scripts:
+Then we can run the scripts:
 
-./script1_system_report.sh  
-./script2_package_inspector.sh  
-./script3_disk_auditor.sh  
-./script4_log_analyzer.sh fail  
-./script5_manifesto.sh  
+./script1_system_report.sh
+
+./script2_package_inspector.sh
+
+./script3_disk_auditor.sh
+
+./script4_log_analyzer.sh fail
+
+./script5_manifesto.sh
 
